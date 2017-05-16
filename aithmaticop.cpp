@@ -1,12 +1,24 @@
 #include<iostream>
 uisng namespace std;
+class aith
+{
+  int a,b,c;
+  public:
+     void sum()
+     {
+       int d=a+b;
+       cout<<"sum of number is "<<d;
+     }
+  void sub()
+  {
+    int d= a-b;
+    cout<<"subtraction of number is "<<d;
+  }
+};
 int main()
 {
-int a,b;
-cout<<"enter two number a and b";
-cin>>a,b;
-
-int d=a+b;
-cout<<"sum of two number a and b is:- "<<d;
+aith a;
+  a.sum();
+    a.sub();
 }
 
