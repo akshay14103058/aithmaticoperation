@@ -14,11 +14,18 @@ class aith
     int d= a-b;
     cout<<"subtraction of number is "<<d;
   }
+  
+  void mul()
+  {
+    int d= a*b;
+    cout<<"multipiction of two number is of number is "<<d;
+  }
 };
 int main()
 {
 aith a;
   a.sum();
     a.sub();
+  a.mul();
 }
 
